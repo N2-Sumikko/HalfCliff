@@ -20,7 +20,7 @@ https://msys.qmk.fm/
 
 ダウンロード後、PCのデスクトップ等に任意の名前のフォルダを1つ作成します。
 
-(出来れば英語の、スペースを使用しないファイル名が良いです。gith
+(出来れば英語の、スペースを使用しないファイル名が良いです。(github_workとか)
 
 <img width="155" alt="フォルダ" src="https://user-images.githubusercontent.com/54104281/88303108-94214c80-cd41-11ea-957e-8696f901dc56.png">
 
