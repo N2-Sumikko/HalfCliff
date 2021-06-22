@@ -385,10 +385,10 @@ M2x7mmスペーサーをトッププレートにM2x4mmねじでねじ止めし�
 ![右JIS拡張基板_スタビライザー取付後](https://user-images.githubusercontent.com/54104281/122667691-0e2ab180-d1ef-11eb-9d07-a17d9102224d.jpg)
 # トッププレートへのキースイッチ(四隅）の取付け、はんだ付け
 キースイッチ基板の時と同様、トッププレートの四隅へキースイッチを取付け、はんだ付けします。
-![左JIS拡張基板_キースイッチはんだ付け後](https://user-images.githubusercontent.com/54104281/122667734-5a75f180-d1ef-11eb-9225-98945e0fc8ce.jpg)
+![左JIS拡張基板_四隅キースイッチはんだ付け後](https://user-images.githubusercontent.com/54104281/122667737-5ea20f00-d1ef-11eb-8600-5f0569463756.jpg)
 # 残りのキースイッチの取付け、はんだ付け
 キースイッチ基板の時と同様、残りのキースイッチを取付け、はんだ付けします。
-![左JIS拡張基板_四隅キースイッチはんだ付け後](https://user-images.githubusercontent.com/54104281/122667737-5ea20f00-d1ef-11eb-8600-5f0569463756.jpg)
+![左JIS拡張基板_キースイッチはんだ付け後](https://user-images.githubusercontent.com/54104281/122667734-5a75f180-d1ef-11eb-9225-98945e0fc8ce.jpg)
 # JIS拡張基板へのM2x7mm スペーサー4つの取付け
 JIS拡張基板へM2x7mmスペーサー4つ(左右で合計8個)を取付けます。
 ![左JIS拡張基板_M2x7mmスペーサー取付後](https://user-images.githubusercontent.com/54104281/122667793-a32daa80-d1ef-11eb-85b4-dff0ac5ba902.jpg)
