@@ -380,10 +380,7 @@ M2x7mmスペーサーをトッププレートにM2x4mmねじでねじ止めし�
 
 ルブの塗布に関しては、こちらのサリチル酸様のWebページが非常に参考になるかと思います。(この場を借りて重ねて感謝申し上げます。)
 
-
-[自作キーボードを作るために必要なもの - 自作キーボード温泉街の歩き方](https://salicylic-acid3.hatenablog.com/entry/tool-lubrication)
-
-[スタビライザーのルブの話](https://salicylic-acid3.hatenablog.com/entry/stabilizer-lubrication）
+[スタビライザーのルブの話](https://salicylic-acid3.hatenablog.com/entry/stabilizer-lubrication)
 
 ![右JIS拡張基板_スタビライザー取付後](https://user-images.githubusercontent.com/54104281/122667691-0e2ab180-d1ef-11eb-9d07-a17d9102224d.jpg)
 # トッププレートへのキースイッチ(四隅）の取付け、はんだ付け
