@@ -379,6 +379,7 @@ M2x7mmスペーサーをトッププレートにM2x4mmねじでねじ止めし�
 ルブの用意がある場合は、スタビライザーへのルブを塗布してから取付けます。
 
 ルブの塗布に関しては、こちらのサリチル酸様のWebページが非常に参考になるかと思います。(この場を借りて重ねて感謝申し上げます。)
+
 [スタビライザーのルブの話](https://salicylic-acid3.hatenablog.com/entry/stabilizer-lubrication）
 
 ![右JIS拡張基板_スタビライザー取付後](https://user-images.githubusercontent.com/54104281/122667691-0e2ab180-d1ef-11eb-9d07-a17d9102224d.jpg)
