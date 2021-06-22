@@ -392,7 +392,7 @@ M2x7mmスペーサーをトッププレートにM2x4mmねじでねじ止めし�
 # JIS拡張基板へのM2x7mm スペーサー4つの取付け
 JIS拡張基板へM2x7mmスペーサー4つ(左右で合計8個)を取付けます。
 ![左JIS拡張基板_M2x7mmスペーサー取付後](https://user-images.githubusercontent.com/54104281/122667793-a32daa80-d1ef-11eb-85b4-dff0ac5ba902.jpg)
-![右JIS拡張基板_M2x7mmスペーサー取付後](https://user-images.githubusercontent.com/54104281/122667811-b80a3e00-d1ef-11eb-9b9d-a8b043ebfe6d.jpg)
+![右JIS拡張基板_M2x7mmスペーサー取付後](https://user-images.githubusercontent.com/54104281/122936934-87233800-d3ac-11eb-8756-ca180a3ee67e.jpg)
 
 この時点ではスペーサーは固定されていないので、落とさないよう注意してください。
 # スペーサーのトッププレートへのねじ止め
