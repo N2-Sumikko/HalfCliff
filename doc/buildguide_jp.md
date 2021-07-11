@@ -83,6 +83,7 @@ pro micro	|	2	|	ProMicro、または互換品です。
 スタビライザー	|	2	|	キースイッチのような部品2つが金属製のシャフトでつながった部品です。
 キーキャップ	|	75	|	CherryMX互換品のキーキャップが必要です。例えば[これ](https://www.diatec.co.jp/shop/det.php?prod_c=4130)
 キースイッチ	|	75	|	Cherry MX互換品が必要です。
+microUSBケーブル	| 1	|	USBのType-A端子とmicroUSBのType-B端子を接続して通信可能なケーブルが必要です。
 TRRSケーブル	|	1	|	TRRSジャックに接続するケーブルです。
 
 
