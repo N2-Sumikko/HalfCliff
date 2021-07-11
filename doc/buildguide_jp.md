@@ -428,7 +428,7 @@ JIS拡張基板へM2x7mmスペーサー4つ(左右で合計8個)を取付けま�
 ![ProMicro基板ねじ止め時の部品順説明用](https://user-images.githubusercontent.com/54104281/122667940-847be380-d1f0-11eb-82ab-1e7180eaaf68.jpg)
 ProMicroのUSB端子の下の穴にナットを止めにくい場合は、一度ProMicroを取り外すとよいです。
 
-その際は、ProMicroの端子が曲がらないように気をつけてください。
+その際は、ProMicroの端子が曲がらないように注意します。ProMicroの中心付近をもってまっすぐ引き抜くとよいです。
 
 # ProMicro基板とキースイッチ基板の接続
 動作テストの時と同様、ProMicro基板とキースイッチ基板を接続します。
