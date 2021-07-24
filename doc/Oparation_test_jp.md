@@ -9,10 +9,9 @@
 
 おおまなか手順は以下の通りです。
 * (QMK MSYSを使用する場合)ファームウェア書込み環境の構築
-* (QMK MSYSを使用する場合)ProMicroとPC間の接続
-* (QMK MSYSを使用する場合)ProMicroへのファームウェア書込み
 * (QMK Toolboxを使用する場合)ファームウェア書込み環境の構築
-* (QMK Toolboxを使用する場合)ProMicroとPC間の接続
+* ProMicroとPC間の接続
+* (QMK MSYSを使用する場合)ProMicroへのファームウェア書込み
 * (QMK Toolboxを使用する場合)ProMicroへのファームウェア書込み
 * 左右のキーボードのTRRSケーブルでの接続
 * **左キーボード**のProMicroとPC間をUSBケーブルで接続
@@ -30,7 +29,7 @@ https://msys.qmk.fm/
 
 ダウンロード後、PCのデスクトップ等に任意の名前のフォルダを1つ作成します。
 
-(出来れば英語の、スペースを使用しないファイル名が良いです。(github_workとか)
+(出来れば英語の、スペースを使用しないファイル名が良いです。github_workとか)
 
 <img width="155" alt="フォルダ" src="https://user-images.githubusercontent.com/54104281/88303108-94214c80-cd41-11ea-957e-8696f901dc56.png">
 
@@ -95,11 +94,33 @@ cd C:(コピーしたフォルダのパスがD:だったりE:だったりする�
 
 コマンドを実行すると、先ほど作成したフォルダの中へ移動されます。以上でファームウェア書込み環境の構築は完了です。
 
-# (QMK MSYSを使用する場合)ProMicroとPC間の接続
+# (QMK Toolboxを使用する場合)ファームウェア書込み環境の構築
 
-ProMicro基板とキースイッチ基板の接続まで完了したキーボードのProMicroとPC間をUSBケーブルで接続します。
+QMK Toolboxを使用する場合、まずは以下のURL
 
-USBケーブルには充電のみ可能なものと、通信可能なものがあります。通信可能なものを使用するので、間違えないように注意してください。
+https://github.com/qmk/qmk_toolbox/releases
+
+にアクセスします。その後、最新版(2021/07/24時点では0.0.21)の「qmk_toolbox.exe」をクリックし、実行ファイルをダウンロードします。
+
+ダウンロード後、PCのデスクトップ等に任意の名前のフォルダを1つ作成します。
+
+(出来れば英語の、スペースを使用しないファイル名が良いです。QMK_Toolboxとか)
+
+作成後、QMK Toolboxをダウンロードしたフォルダを開き、ダウンロードした実行ファイルをフォルダ内に移動しておきます。
+
+移動後、実行ファイルをダブルクリックなどで実行します。
+
+実行後表示されるダイアログでは「はい」をクリックします。
+
+![実行時に表示されるダイアログ](https://user-images.githubusercontent.com/54104281/126859435-16f8cb54-3407-43a9-8db7-4ec2766603b9.png)
+
+クリック後に画面が表示されるので、閉じるのを待ちます。
+
+![ドライバインストール時ダイアログ](https://user-images.githubusercontent.com/54104281/126859557-cfc0cc68-f010-41db-af15-70bdf3a8b636.png)
+
+その後、以下の画面が表示されたら、ファームウェア書き込み環境構築は完了です。
+
+![QMK_Toolbox起動後](https://user-images.githubusercontent.com/54104281/126859604-6beb94f8-2b52-41cc-bf48-62ecc2ab85bb.png)
 
 #  (QMK MSYSを使用する場合)ProMicroへのファームウェア書込み
 
@@ -120,6 +141,10 @@ qmk flash -kb halfcliff -km default
 リセットスイッチを押すと画面の状態が変わり、処理が先に進みます。「Thank you.」と表示されたら、ファームウェアの書込みは完了です。
 
 もう片方のキーボードに対しても同様の手順でファームウェアを書き込みます。
+
+* (QMK Toolboxを使用する場合)ファームウェア書込み環境の構築
+* (QMK Toolboxを使用する場合)ProMicroとPC間の接続
+* (QMK Toolboxを使用する場合)ProMicroへのファームウェア書込み
 
 # 左右のキーボードのTRRSケーブルでの接続
 
