@@ -61,7 +61,7 @@ Webページにアクセス→Latest Versionをクリック→最新版のQMK MS
 
 https://gist.github.com/e3w2q/4bc86e531d1c893d3d13af3e9895a94a
 
-halfcliffの場合、2021/07/24時点ではフォークされたQMKを使用します。
+halfcliffの場合、フォークされたQMKを使う場合の手順を実施します。（2021/07/24時点）
 
 上記のWebページの、
 
