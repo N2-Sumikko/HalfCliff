@@ -44,19 +44,20 @@ https://msys.qmk.fm/
 
 インストールの手順はこちらのWebページの、
 
-「QMK Firmwareのダウンロードとインストール（フォークされたQMKを使う場合）」
+* QMK Firmwareのダウンロードとインストール（フォークされたQMKを使う場合）
+* QMK Firmwareのダウンロードとインストール（本家を使う場合）
 
 が非常に参考になります。(ページの作成者様にこの場を借りて感謝致します。)
 
 https://gist.github.com/e3w2q/4bc86e531d1c893d3d13af3e9895a94a
 
-halfcliffの場合、
+halfcliffの場合、2021/07/24時点ではフォークされたQMKを使用します。上記のWebページの、
 
 ```
 qmk setup --home C:/<path>/qmk_firmware
 ```
 
-を入力する所まで進んだら、
+を入力する所まで進んだら、代わりに
 
 ```
 qmk setup N2-sumikko/qmk_firmware --branch add_halfcliff --home コピーしたフォルダのパス/qmk_firmware
@@ -70,7 +71,7 @@ qmk setup N2-sumikko/qmk_firmware --branch add_halfcliff --home コピーした�
 C:\Users\USER\Desktop\github_work
 ```
 
-は
+の場合は
 
 ```
 C:/Users/USER/Desktop/github_work
@@ -78,17 +79,13 @@ C:/Users/USER/Desktop/github_work
 
 に置き換えます。
 
-qmkのsetupの実行中、何度か[y/n]の確認メッセージが出ますが、これらに対してはyを入力後Enterを押します。
-
-その後、
+qmkのsetupの実行中、何度か[y/n]の確認メッセージが出ますが、これらに対してはyを入力後Enterを押します。その後、
 
 ```
 cd コピーしたフォルダのパス/qmk_firmware
 ```
 
-と入力し、Enterキーを押します。
-
-場合によっては、このコマンドの実行前に
+と入力し、Enterキーを押します。場合によっては、このコマンドの実行前に
 
 ```
 cd C:(コピーしたフォルダのパスがD:だったりE:だったりする場合は対応するものを入力)
@@ -96,16 +93,7 @@ cd C:(コピーしたフォルダのパスがD:だったりE:だったりする�
 
 等のコマンドの実行が必要な場合もあります。
 
-コマンドを実行すると、先ほど作成したフォルダの中へ移動されます。
-
-移動後、以下のコマンドを入力し、Enterキーを押します。
-
-
-その後、以下のコマンドを入力し、Enterキーを押します。
-
-
-
-すると、ファームウェア書込みを行うフォルダの中へ移動されます。以上でファームウェア書込み環境の構築は完了です。
+コマンドを実行すると、先ほど作成したフォルダの中へ移動されます。以上でファームウェア書込み環境の構築は完了です。
 
 # (QMK MSYSを使用する場合)ProMicroとPC間の接続
 
@@ -163,10 +151,6 @@ https://www.keyboardtester.com/tester.html
 (ピンセット等で端子を導通させている画像)
 
 組立が正しく行われていれば、ショートさせた箇所に対応するキーが入力されます。
-
-QMK MSYSを使用して動作テストを行う場合、例えばshiftキー等は入力したかどうかわかりにくいかと思います。(要対応)
-QMK MSYSを使用する場合は、まずはコンパイルして、そのあとにhexファイルを動作確認用に置き換えるか？
-
 
 これを左右基板の各端子、もしくはキースイッチに対して行います。
 
