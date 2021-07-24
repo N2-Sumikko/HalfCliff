@@ -17,8 +17,9 @@
 * 入力動作テスト
 
 QMK MSYSとQMK Toolboxのどちらを使用するかは好みですが、
-Halfcliffでは現状、QMK MSYSを使用する場合動作テストを行いにくいキーがあります。(例えば最下段の無変換キー等)
-QMK Toolboxにはテスト用のファイルを用意できているので、
+現状のHalfcliffではQMK MSYS使用時に動作テストを行いにくいキーがあります。(例えば最下段の無変換キー等)
+
+QMK Toolboxには動作テスト用のファイルがあるので、
 最初の動作テストではQMK Toolboxを使用し、必要に応じてQMK MSYSに移行する、という流れをお勧めします。
 
 # (QMK MSYSを使用する場合)ファームウェア書込み環境の構築
@@ -174,21 +175,13 @@ Codeをクリック→Download ZIPをクリック
 
 という手順で行います。
 
-必要な.hexファイルは行いたい内容によって異なります。
+動作テスト時は、
 
-VIA等を使ってキーマップの変更を行う場合は
+hex/test/
 
-hex/via/normal/
+の先にあるhalfcliff_test.hexを使用します。(使えるかどうかを確認中。スクショ撮ること)
 
-のhalfcliff_via.hexを、そうでない場合は
-
-hex/default/normal/
-
-のhalfcliff_default.hexを使用します。
-
-これからキーマップの変更を覚えるのであれば、VIA等の使用がお勧めです。
-
-使用する.hexファイルが決まったら、QMK Toolboxにてopenをクリックして.hexファイルを選択します。
+QMK Toolboxにてopenをクリックして.hexファイルを選択します。
 
 ![hex選択後](https://user-images.githubusercontent.com/54104281/126861281-d7e2799e-023a-42dc-adf2-a7acb88fe650.png)
 
