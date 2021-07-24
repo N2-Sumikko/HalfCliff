@@ -174,7 +174,7 @@ USBケーブルは通信可能なものを使用します。
 
 接続後、以下のURLにアクセスし、ファームウェアの書き込みに必要な.hexファイルをダウンロードします。
 
-https://github.com/N2-Sumikko/HalfCliff/tree/master/hex
+https://github.com/N2-Sumikko/HalfCliff
 
 ダウンロードは、URLにアクセス後、
 
