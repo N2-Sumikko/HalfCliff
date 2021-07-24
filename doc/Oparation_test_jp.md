@@ -16,12 +16,12 @@
 * **左キーボード**のProMicroとPC間をUSBケーブルで接続
 * 入力動作テスト
 
-QMK MSYSとQMK Toolboxのどちらを使用するかは好みですが、
-現状のHalfcliffではQMK MSYS使用時に動作テストを行いにくいキーがあります。(例えば最下段の無変換キー等)
+QMK MSYSとQMK Toolboxのどちらを使用するかについては、最初の動作テストではQMK Toolboxを使用し、
+必要に応じてQMK MSYSに移行する、という流れをお勧めします。
 
-QMK Toolboxには動作テスト用のファイルがあるので、
-最初の動作テストではQMK Toolboxを使用し、必要に応じてQMK MSYSに移行する、という流れをお勧めします。
-
+というのも、現状のHalfcliffでは、QMK MSYSを使用しての動作テスト時に一部のキーが動いているのかどうかわかりにくいためです。(例えば最下段の無変換キー等)
+QMK Toolboxを使用した動作テストでは、専用のファイル(動作テスト時に必ず何らかのキーが入力されるよう設定したファイル)を使用するので、その心配はありません。
+　
 # (QMK MSYSを使用する場合)ファームウェア書込み環境の構築
 
 ファームウェア書込み環境構築のため、QMK MSYSの公式のWeb ページ
@@ -57,7 +57,9 @@ Webページにアクセス→Latest Versionをクリック→最新版のQMK MS
 
 https://gist.github.com/e3w2q/4bc86e531d1c893d3d13af3e9895a94a
 
-halfcliffの場合、2021/07/24時点ではフォークされたQMKを使用します。上記のWebページの、
+halfcliffの場合、2021/07/24時点ではフォークされたQMKを使用します。
+
+上記のWebページの、
 
 ```
 qmk setup --home C:/<path>/qmk_firmware
