@@ -18,7 +18,7 @@
 
 QMK MSYSとQMK Toolboxのどちらを使用するかは好みですが、
 
-動作テスト時はQMK Toolboxを使用し、必要に応じてQMK MSYSに移行する
+* 動作テスト時はQMK Toolboxを使用し、必要に応じてQMK MSYSに移行する
 
 という流れをお勧めします。(詳しい方はその限りではありません。)
 
