@@ -50,7 +50,7 @@ Webページにアクセス→Latest Versionをクリック→最新版のQMK MS
 
 <img width="300" alt="フォルダのパス" src="https://user-images.githubusercontent.com/54104281/88304171-e3b44800-cd42-11ea-993a-4b857d0bba86.png">
 
-ダウンロード後、QMK MSYSをインストールします。
+その後、ダウンロードしたQMK MSYSをインストールします。
 
 インストールの手順はこちらのWebページの、
 
