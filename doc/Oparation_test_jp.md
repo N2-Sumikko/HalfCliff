@@ -140,7 +140,7 @@ qmk flash -kb halfcliff -km default
 
 しばらすると「.」が 1つずつ増えていく状態になります。
 
-その状態で、画像のようにピンセット等でProMicroの下にあるリセットスイッチを押します。(画像は組み立て後のキーボードですが、作業内容は同じです。)
+その状態で、画像のようにピンセット等でProMicroの下にあるリセットスイッチを押します。(画像は組立後のキーボードですが、作業内容は同じです。)
 
 ![IMG_20210725_230624](https://user-images.githubusercontent.com/54104281/126964893-35e7dbbe-f2f3-4a33-acd2-2e9da88f1e64.jpg)
 
@@ -197,29 +197,35 @@ Codeをクリック→Download ZIPをクリック
 
 という手順で行います。
 
-動作テスト時は、
+ダウンロードが完了したら、任意の場所にフォルダを展開(解凍)します。
 
-hex/test/
+解凍後、QMK Toolboxにてopenをクリックし、
 
-の先にあるhalfcliff_test.hexを使用します。(使えるかどうかを確認中。スクショ撮ること)
+展開したフォルダ「HalfCliff-master」内の
 
-QMK Toolboxにてopenをクリックして.hexファイルを選択します。
+```
+hex/test
+```
 
-![hex選択後](https://user-images.githubusercontent.com/54104281/126861281-d7e2799e-023a-42dc-adf2-a7acb88fe650.png)
+にある「halfcliff_test.hex」ファイルを選択します。
+
+![hex選択後](https://user-images.githubusercontent.com/54104281/126997225-7fa0c591-671d-41dd-b679-cb1b61a27e46.png)
 
 その後、Auto-Flashのチェックボックスをクリックしチェックを入れます。
 
-![Auto-Flashチェック後](https://user-images.githubusercontent.com/54104281/126861790-087d0abf-36ec-49b6-b2a9-db3fffd7492d.png)
+![Auto-Flashチェック後](https://user-images.githubusercontent.com/54104281/126997247-fa9ecaa4-cac1-4346-ab89-943dad6a06f4.png)
 
 念のため、右上のMCUの項目がatmega32u4であることも確認しておきます。
 
-その後、PCに接続したキーボードのリセットスイッチをピンセットなどで押します。
+その状態で、画像のようにピンセット等でProMicroの下にあるリセットスイッチを押します。(画像は組立後のキーボードですが、作業内容は同じです。)
+
+![IMG_20210725_230624](https://user-images.githubusercontent.com/54104281/126964893-35e7dbbe-f2f3-4a33-acd2-2e9da88f1e64.jpg)
 
 すると、ProMicroへのファームウェアの書込みが自動で開始されます。
 
 最終的に以下のような画面が表示されれば書込み完了です。
 
-![書込み完了後](https://user-images.githubusercontent.com/54104281/126861917-f2171b1c-ed25-4240-9814-7b8a23192121.png)
+![書込み完了後](https://user-images.githubusercontent.com/54104281/126997352-f790fd9f-725e-4915-a5ef-b513f144d13a.png)
 
 もう片方のキーボードも同様の手順でファームウェアを書き込みます。
 
