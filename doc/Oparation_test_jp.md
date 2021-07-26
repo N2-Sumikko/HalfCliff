@@ -171,7 +171,7 @@ https://github.com/qmk/qmk_toolbox/releases
 
 ![実行時に表示されるダイアログ](https://user-images.githubusercontent.com/54104281/126859435-16f8cb54-3407-43a9-8db7-4ec2766603b9.png)
 
-クリック後に画面が表示されるので、閉じるのを待ちます。
+クリック後に以下の画面が表示されるので、閉じるのを待ちます。
 
 ![ドライバインストール時ダイアログ](https://user-images.githubusercontent.com/54104281/126859557-cfc0cc68-f010-41db-af15-70bdf3a8b636.png)
 
