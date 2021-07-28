@@ -213,7 +213,7 @@ hex/test
 
 ![hex選択後](https://user-images.githubusercontent.com/54104281/126997225-7fa0c591-671d-41dd-b679-cb1b61a27e46.png)
 
-その後、Auto-Flashのチェックボックスをクリックしチェックを入れます。
+その後、画面の右上の方にあるAuto-Flashのチェックボックスをクリックしチェックを入れます。
 
 ![Auto-Flashチェック後](https://user-images.githubusercontent.com/54104281/126997247-fa9ecaa4-cac1-4346-ab89-943dad6a06f4.png)
 
