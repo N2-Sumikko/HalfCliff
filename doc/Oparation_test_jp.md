@@ -114,7 +114,7 @@ cd C:(コピーしたフォルダのパスがD:だったりE:だったりする�
 例えば、QMK MSYS起動後すぐにフォルダ
 
 ```
-cd C:Users/USER/Desktop/github_work/qmk_firmware/
+C:Users/USER/Desktop/github_work/qmk_firmware/
 ```
 
 に移動するコマンドを実行した場合、以下のような画面になります。
