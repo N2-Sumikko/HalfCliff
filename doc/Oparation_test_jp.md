@@ -117,7 +117,7 @@ cd C:(コピーしたフォルダのパスがD:だったりE:だったりする�
 C:Users/USER/Desktop/github_work/qmk_firmware/
 ```
 
-に移動するコマンドを実行した場合、以下のような画面になります。
+に移動する手順を実行した場合、以下のような画面になります。
 
 ![フォルダ移動後](https://user-images.githubusercontent.com/54104281/126988722-7d85002b-075e-4bf3-86c3-95ebb8160aa2.png)
 
