@@ -54,14 +54,11 @@ Webページにアクセス→Latest Versionをクリック→最新版のQMK MS
 
 インストールの手順はこちらのWebページの、
 
-* QMK Firmwareのダウンロードとインストール（フォークされたQMKを使う場合）
 * QMK Firmwareのダウンロードとインストール（本家を使う場合）
 
 が非常に参考になります。(ページの作成者様にこの場を借りて感謝致します。)
 
 https://gist.github.com/e3w2q/4bc86e531d1c893d3d13af3e9895a94a
-
-halfcliffの場合、フォークされたQMKを使う場合の手順を実施します。（2021/07/24時点）
 
 上記のWebページの、
 
@@ -72,7 +69,7 @@ qmk setup --home C:/<path>/qmk_firmware
 を入力する所まで進んだら、代わりに
 
 ```
-qmk setup N2-sumikko/qmk_firmware --branch add_halfcliff --home コピーしたフォルダのパス/qmk_firmware
+qmk setup N2-sumikko/qmk_firmware --home コピーしたフォルダのパス/qmk_firmware
 ```
 
 と入力してEnterキーを押します。ただし、ここではコピーしたフォルダのパスの「￥」または「\」は「/」に置き換えます。
