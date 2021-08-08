@@ -125,7 +125,7 @@ C:Users/USER/Desktop/github_work/qmk_firmware/
 
 #  (QMK MSYSを使用する場合)ProMicroへのファームウェア書込み
 
-ファームウェア書き込みのために、左右いずれかのキーボードのProMicroとPC間をUSBケーブルで接続します。
+ファームウェア書き込みのために、まずは左右いずれかのキーボードのProMicroとPC間をUSBケーブルで接続します。
 
 ファームウェアは左右両方のProMicroへ書き込む必要があります。
 
