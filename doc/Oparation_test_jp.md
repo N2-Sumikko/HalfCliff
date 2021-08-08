@@ -129,10 +129,12 @@ C:Users/USER/Desktop/github_work/qmk_firmware/
 
 USBケーブルは通信可能なものを使用します。ファームウェアは左右両方のProMicroへ書き込む必要があります。
 
-接続後、以下のコマンドを入力し、Enterキーを押します。(defaultの部分はviaに変えても良いです。）
+接続後、以下のコマンドを入力し、Enterキーを押します。
+
+(viaの部分をdefaultに変えても良いですが、そうするとVIAやRemap等の便利なサービスを使用できなくなってしまうので、特別な理由がない限りおすすめしません。）
 
 ```
-qmk flash -kb halfcliff -km default
+qmk flash -kb halfcliff -km via
 ```
 
 すると、ファームウェアの書込みが開始されます。(書込み開始まで少し時間がかかる場合があるので、しばらく待ちます。)
