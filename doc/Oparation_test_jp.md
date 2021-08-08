@@ -177,7 +177,7 @@ https://github.com/qmk/qmk_toolbox/releases
 
 その後、以下の画面が表示されたら、ファームウェア書き込み環境構築は完了です。
 
-![QMK_Toolbox起動後](https://user-images.githubusercontent.com/54104281/126859604-6beb94f8-2b52-41cc-bf48-62ecc2ab85bb.png)
+![QMK_Toolbox起動後(暫定)](https://user-images.githubusercontent.com/54104281/128621145-1f619b43-a17c-4c46-a4b8-6c1ef8b28002.jpg)
 
 # (QMK Toolboxを使用する場合)ProMicroへのファームウェア書込み
 
