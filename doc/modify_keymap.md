@@ -38,7 +38,9 @@ Google Chromeのブラウザにて[Remap](https://remap-keys.app/)へアクセ�
 
 # Remapにてキーマップ編集画面の表示
 サリチル酸様のWebページ
+
 [（初心者編）Remapを使ってキーマップを書き換えよう](https://salicylic-acid3.hatenablog.com/entry/remap-manual)
+
 を参考に、キーマップ編集画面を開くところまで進めます。
 halfcliffのキーマップはRemapにマージいただいているので、「接続」をクリックするところまで進めれば編集画面が表示されるはずです。
 
