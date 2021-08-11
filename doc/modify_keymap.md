@@ -28,7 +28,7 @@ Remapでのキーマップ変更には、 viaを指定したファームウェ�
 * (QMK Toolboxを使用する場合)ダウンロードした「HalfCliff-master」内の「hex/via/normal/halfcliff_via.hex」を使用してのキーマップ書込み
 を行います。
 
-* RemapのWebサイトへアクセス
+# RemapのWebサイトへアクセス
 [Remap](https://remap-keys.app/)へアクセスします。
 
 
