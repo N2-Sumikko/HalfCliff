@@ -21,7 +21,7 @@
 Remapでのキーマップ変更には、viaに対応しているキーマップを使用したファームウェアがProMicroに書き込まれている必要があります。
 行っていない場合は、このファームウェアをProMicroに書込みます。
 
-具体的には、動作テスト時に行った
+具体的には、キーボード組立時に行った
 [入力動作テスト](https://github.com/N2-Sumikko/HalfCliff/blob/master/doc/Oparation_test_jp.md)
 の内容に従い、
 * (QMK MSYSを使用する場合）コマンド「qmk flash -kb halfcliff -km via」でのファームウェアの書込み
