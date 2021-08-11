@@ -105,7 +105,7 @@ Halfcliff組立て時に自分が使用したものを以下に記載します�
 
 他にも、こちらのサリチル酸様のWebページも非常に参考になるかと思います。(この場を借りて感謝申し上げます。)
 
-[自作キーボードを作るために必要なもの - 自作キーボード温泉街の歩き方](https://salicylic-acid3.hatenablog.com/entry/tool-lubrication)
+[自作キーボードを作るために必要な工具 - 自作キーボード温泉街の歩き方](https://salicylic-acid3.hatenablog.com/entry/tool-lubrication)
 
 
 # 組立時の主な注意点
