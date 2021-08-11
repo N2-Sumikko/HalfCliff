@@ -27,6 +27,7 @@ Remapでのキーマップ変更には、viaに対応しているキーマップ
 の内容に従い、
 * (QMK MSYSを使用する場合）コマンド「qmk flash -kb halfcliff -km via」でのファームウェアの書込み
 * (QMK Toolboxを使用する場合)ダウンロードした「HalfCliff-master」内の「hex/via/normal/halfcliff_via.hex」を使用してのキーマップ書込み
+
 を行います。
 
 # RemapのWebサイトへアクセス
