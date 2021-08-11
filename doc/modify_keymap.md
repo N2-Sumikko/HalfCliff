@@ -25,7 +25,7 @@ Remapを使用してキーマップを変更するためには、viaに対応し
 [入力動作テスト](https://github.com/N2-Sumikko/HalfCliff/blob/master/doc/Oparation_test_jp.md)
 の内容に従い、
 * (QMK MSYSを使用する場合）コマンド「qmk flash -kb halfcliff -km via」でのファームウェアの書込み
-* (QMK Toolboxを使用する場合)ダウンロードした「HalfCliff-master」内の「hex/via/normal/halfcliff_via.hex」を使用してのキーマップ書込み
+* (QMK Toolboxを使用する場合)ダウンロードした「HalfCliff-master」内の「hex/via/normal/halfcliff_via.hex」を使用してのファームウェア書込み
 
 を行います。
 
@@ -36,7 +36,7 @@ Google Chromeのブラウザにて[Remap](https://remap-keys.app/)へアクセ�
 左キーボードのProMicroとPC間をUSBケーブルで接続します。
 
 # Remapにてキーマップ編集画面の表示
-こちらはサリチル酸様のWebページの情報が非常に充実していますので、そちらを参考にするとよいかと思います。
+こちらはサリチル酸様のWebページの情報が非常に充実していますので、そちらを確認しながら進めるとよいかと思います。
 
 サリチル酸様のWebページ
 
