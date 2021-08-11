@@ -42,11 +42,7 @@ Google Chromeのブラウザにて[Remap](https://remap-keys.app/)へアクセ�
 
 [（初心者編）Remapを使ってキーマップを書き換えよう](https://salicylic-acid3.hatenablog.com/entry/remap-manual)
 
-の、
-
-キーボード設定画面を開く
-
-以下の内容を参考に、キーマップ編集画面を開くところまで進めます。
+の、「キーボード設定画面を開く」以下の内容を参考に、キーマップ編集画面を開くところまで進めます。
 
 halfcliffのキーマップはRemapにマージしていただいているので、「接続」をクリックするところまで進めれば編集画面が表示されるはずです。
 
