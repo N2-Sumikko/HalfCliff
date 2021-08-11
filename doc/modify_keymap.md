@@ -28,7 +28,7 @@ Remapを使用してキーマップを変更するためには、viaに対応し
 * (QMK MSYSを使用する場合）コマンド「qmk flash -kb halfcliff -km via」でのファームウェアの書込み
 * (QMK Toolboxを使用する場合)ダウンロードした「HalfCliff-master」内の「hex/via/normal/halfcliff_via.hex」を使用してのファームウェア書込み
 
-を行います。
+を行います。実施済みの場合はこの手順は飛ばします。
 
 # RemapのWebサイトへアクセス
 Google Chromeのブラウザにて[Remap](https://remap-keys.app/)へアクセスします。
@@ -49,6 +49,7 @@ halfcliffのキーマップはRemapにマージしていただいているので
 
 # キーマップの変更
 こちらも上記のサリチル酸様のWebページの情報が非常に充実していますので、そちらを確認しながら進めます。
+
 halfcliffのキーマップ変更時の注意点としては、
 * 基本セットの場合、キー配列はJIS配列を使用
 * デフォルトの設定ではマウスキー、アンダーグロー用LEDは使用不可(近々、マウスキー及びアンダーグローを有効にしたhexファイルを用意する予定)
