@@ -24,7 +24,7 @@ Remapを使用してキーマップを変更するためには、viaに対応し
 
 具体的には、キーボード組立時に行った
 [入力動作テスト](https://github.com/N2-Sumikko/HalfCliff/blob/master/doc/Oparation_test_jp.md)
-の内容に従い、
+の内容を参考に、
 * (QMK MSYSを使用する場合）コマンド「qmk flash -kb halfcliff -km via」でのファームウェアの書込み
 * (QMK Toolboxを使用する場合)ダウンロードした「HalfCliff-master」内の「hex/via/normal/halfcliff_via.hex」を使用してのファームウェア書込み
 
