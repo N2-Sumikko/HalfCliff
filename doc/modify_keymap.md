@@ -20,7 +20,7 @@
 # (行っていない場合)viaに対応しているファームウェア書込
 Remapを使用してキーマップを変更するためには、viaに対応しているファームウェアがProMicroに書込まれている必要があります。
 
-行っていない場合、ProMicroに該当のファームウェアを書込みます。
+書込みを行っていない場合、ProMicroに該当のファームウェアを書込みます。
 
 具体的には、キーボード組立時に行った
 [入力動作テスト](https://github.com/N2-Sumikko/HalfCliff/blob/master/doc/Oparation_test_jp.md)
