@@ -239,7 +239,7 @@ halfcliff_test.hexを書き込んだ場合、キーマップ(キースイッチ�
 
 halfcliffは通常の設定では、左キーボードのProMicroにUSBケーブルを接続しないと正しく動作しません。
 
-もし右キーボードのProMicroにUSBケーブルを接続して使用したい場合は、QMKのドキュメント
+(余談)もし右キーボードのProMicroにUSBケーブルを接続して使用したい場合は、QMKのドキュメント
 
 https://github.com/qmk/qmk_firmware/blob/master/docs/ja/feature_split_keyboard.md
 
