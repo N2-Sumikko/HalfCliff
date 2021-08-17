@@ -246,7 +246,7 @@ halfcliffは通常の設定では、左キーボードのProMicroにUSBケーブ
 
 https://github.com/qmk/qmk_firmware/blob/master/docs/ja/feature_split_keyboard.md
 
-の「Handedness by #define」の部分を参考に、「#define MASTER_LEFT」の記述を「conhig.h」に追加したファームウェアを、
+の「#define による左右の設定」の部分を参考に、「#define MASTER_LEFT」の記述を「conhig.h」に追加したファームウェアを、
 
 QMK MSYS等を使用して書込む必要があります。
 
