@@ -197,7 +197,7 @@ Codeをクリック→Download ZIPをクリック
 
 解凍後、QMK Toolboxにてopenをクリックし、
 
-展開したフォルダ「HalfCliff-master」内の
+展開したフォルダ「HalfCliff-master」内のフォルダ
 
 ```
 hex/test
