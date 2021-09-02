@@ -82,7 +82,7 @@ pro micro|2|ProMicro、または互換品です。
 ピンヘッダ1x12|4|12ピンのピンヘッダです。ProMicroの袋に同梱のものが使用可能です。
 スタビライザー(2u用)|2|キースイッチのような部品2つが金属製のシャフトでつながった部品です。
 キーキャップ|75|CherryMX互換品のキーキャップが必要です。例えば[これ](https://www.diatec.co.jp/shop/det.php?prod_c=4130)
-キースイッチ|75|Cherry MX互換品が必要です。(余談)自分は[Kailh BOX Brown](https://shop.yushakobo.jp/collections/all-switches/products/kailh-box)をよく使います。
+キースイッチ|75|Cherry MX互換品が必要です。(余談)自分は[Kailh BOX Brown](https://shop.yushakobo.jp/collections/all-switches/products/kailh-box?variant=37665170456737)をよく使います。
 microUSBケーブル|1|USBのType-A端子とmicroUSBのType-B端子を接続して通信可能なケーブルが必要です。
 TRRSケーブル|1|TRRSジャックに接続するケーブルです。
 
