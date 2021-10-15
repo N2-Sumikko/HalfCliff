@@ -142,7 +142,7 @@ ProMicro基板が他の基板と繋がっている場合、画像の様にニッ
 切り離した後の基板
 ![ProMicro基板整形前](https://user-images.githubusercontent.com/54104281/122668801-d3c41300-d1f4-11eb-903c-23730a14e727.jpg)
 # (気になる場合)切り離したPromicro基板の整形
-切り残しが気になる場合は、切り離した部分を鉄ヤスリ等で削ります。
+切り残しが気になる場合は鉄ヤスリ等で削ります。
 ![ProMicro基板整形後](https://user-images.githubusercontent.com/54104281/122664522-f77b5f00-d1dc-11eb-895f-f90aabdbdf0d.jpg)
 # 1x9L字ピンソケット2つのはんだ付け
 基板に1x9L字ピンソケット2つを取付け、はんだ付けします。左右の基板で向きが異なるので注意してください。
