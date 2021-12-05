@@ -225,9 +225,9 @@ hex/test
 
 もう片方のキーボードも同様の手順でファームウェアを書込みます。
 
-halfcliff_test.hexを書き込んだ場合、キーマップ(キースイッチと入力されるキーの対応)は以下の通りです。
+halfcliff_test.hexを書き込んだ場合、左右キースイッチ基板のキーマップ(キースイッチと入力されるキーの対応)は以下の赤枠と黄枠を通りです。
 
-![テスト用キーマップ_5列](https://user-images.githubusercontent.com/54104281/144734829-7aa67ad2-8ed4-4d18-b464-0e0aa55bed54.png)
+![テスト用キーマップ](https://user-images.githubusercontent.com/54104281/144734996-96efe670-0846-4358-bb14-6c1be8cd3b55.png)
 
 # 左右のキーボードのTRRSケーブルでの接続
 
