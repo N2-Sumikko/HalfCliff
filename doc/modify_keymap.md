@@ -29,7 +29,7 @@ Remapを使用してキーマップを変更するためには、viaに対応し
 [入力動作テスト](https://github.com/N2-Sumikko/HalfCliff/blob/master/doc/Oparation_test_jp.md)
 の内容を参考に、
 * (QMK MSYSを使用する場合）コマンド「qmk flash -kb halfcliff -km via」でのファームウェアの書込み
-* (QMK Toolboxを使用する場合)ダウンロードした「HalfCliff-master」内の「hex/qmk_0.15.4/via/normal/halfcliff_via.hex」、または「hex/qmk_0.15.4/via/underglow/halfcliff_via.hex」(アンダーグロー使用時)の書込み
+* (QMK Toolboxを使用する場合)ダウンロードした「HalfCliff-master」内の「hex/qmk_0.15.4/via/normal/halfcliff_via.hex」、または「hex/qmk_0.15.4/via/underglow/halfcliff_via.hex」(アンダーグロー使用時はこっち)の書込み
 
 を行います。実施済みの場合はこの手順は飛ばします。
 
