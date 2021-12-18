@@ -491,5 +491,5 @@ Halfcliffの基本キットの場合、JIS配列のキーキャップが使用�
 
 動作確認が完了したら、組立完了です。おつかれさまでした。
 
-使用したい[ファームウェアの書込み](https://github.com/N2-Sumikko/HalfCliff/blob/master/doc/modify_keymap.md)後、キーマップをカスタマイズし、楽しいキーボードライフをお過ごしください。
+使用する[ファームウェアの書込み](https://github.com/N2-Sumikko/HalfCliff/blob/master/doc/modify_keymap.md)後、必要に応じてキーマップをカスタマイズし、楽しいキーボードライフをお過ごしください。
 
