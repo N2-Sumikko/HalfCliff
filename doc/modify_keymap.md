@@ -55,9 +55,9 @@ halfcliffのキーマップはRemapにマージしていただいているので
 購入時のキーマップは以下の様になっています。
 デフォルトのレイヤー(名称はDEFAULTです。▽は未設定のキーです。)
 ![デフォルトキーマップ](https://user-images.githubusercontent.com/54104281/146664429-d2f52b6e-d88e-40d4-a1d4-0b57404891e3.png)
-レイヤー１(名称はRAISEです。)
+レイヤー１(名称はRAISEです。Fn1(3)のキーを押している間に有効になるレイヤーです。)
 ![RAISEキーマップ](https://user-images.githubusercontent.com/54104281/146664732-41e82311-9899-49b5-a8d0-a22600d46aed.png)
-レイヤー２(名称はLOWERです。)
+レイヤー２(名称はLOWERです。Fn2(3)のキーを押している間に有効になるレイヤーです。)
 ![LOWERキーマップ](https://user-images.githubusercontent.com/54104281/146664752-04327d61-b525-4447-8578-6ef5d036133b.png)
 
 
