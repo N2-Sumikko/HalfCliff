@@ -78,7 +78,17 @@
 ![IMG_20211231_115656](https://user-images.githubusercontent.com/54104281/147805345-7c1e50f9-cc71-4174-a2e9-f4177c6a7ef3.jpg)
 
 ## (QMK Toolboxを使用する場合)ロータリーエンコーダ対応のファームウェアの書込み
+キーボード組立時に行った
+[入力動作テスト](https://github.com/N2-Sumikko/HalfCliff/blob/master/doc/Oparation_test_jp.md)
+の内容を参考に、QMK ToolboxにてHexファイルを書込みます。
+2021/12/31時点で使用可能なHexファイルは以下の通りです。
+|フォルダ|概要||
+|:-|:-|
+|hex/qmk_0.15.4/via/others/(unofficial)oled_encoder_trackball_mousekey/|ロータリーエンコーダ、トラックボールが使用可能。エンコーダの機能をVIA、Remapにて変更可能|
+|hex/qmk_0.15.4/via/others/(unofficial)encoder_|ロータリーエンコーダが使用可能。エンコーダの機能をVIA、Remapにて変更可能|
 ## (QMK MSYSを使用する場合)ロータリーエンコーダ対応のファームウェアの書込み
+編集中
+
 
 # ビットトレードワン製トラックボール(ADTB7M)
 
