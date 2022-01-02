@@ -194,7 +194,10 @@
 ![IMG_20211231_115819](https://user-images.githubusercontent.com/54104281/147865483-5b4d7f89-a75e-4778-b0e1-363721fbad8f.jpg)
 
 ## トッププレートにM2x4㎜スペーサー2つをM2x10mmねじ2本で取付
+
 画像の様に、トッププレートのU字の切り欠き2箇所に、M2x10mmねじ2本でM2x4㎜スペーサー2つを取付けます。
+
+(説明のため、左キーボードのProMicroカバーは取外してあります。)
 
 ![IMG_20211231_120054](https://user-images.githubusercontent.com/54104281/147865631-08b4c85d-45a2-45e0-a6f7-96166fbead41.jpg)
 
