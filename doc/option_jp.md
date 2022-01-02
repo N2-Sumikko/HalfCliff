@@ -80,7 +80,9 @@
 キーボード組立時に行った
 [入力動作テスト](https://github.com/N2-Sumikko/HalfCliff/blob/master/doc/Oparation_test_jp.md)
 の内容を参考に、QMK ToolboxにてHexファイルを書込みます。
+
 2021/12/31時点で使用可能なHexファイルは以下の通りです。
+
 (unofficial)と記載されているものは、QMKにマージされたファームウェアを変更して作成したものです。
 |フォルダ|ファイル名|概要|
 |:-|:-|:-|
