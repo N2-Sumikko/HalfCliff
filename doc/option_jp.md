@@ -86,13 +86,15 @@
 [入力動作テスト](https://github.com/N2-Sumikko/HalfCliff/blob/master/doc/Oparation_test_jp.md)
 の内容を参考に、QMK ToolboxにてHexファイルを書込みます。
 
-2021/12/31時点で使用可能なHexファイルは以下の通りです。
+2021/12/31時点で使用可能なロータリーエンコーダ対応のHexファイルは以下の通りです。
 
 (unofficial)と記載されているものは、QMKにマージされたファームウェアを変更して作成したものです。
 |フォルダ|ファイル名|概要|
 |:-|:-|:-|
-|hex/qmk_0.15.4/via/others/(unofficial)oled_encoder_trackball_mousekey/|halfcliff_via.hex|OLED、ロータリーエンコーダ、トラックボール併用時用です。エンコーダの機能はVIA、Remapにて変更可能です。ただし、ロータリーエンコーダ、トラックボールモジュールを共に右キーボードに取付けた場合のみ動作確認済みです。|
-|hex/qmk_0.15.4/via/others/(unofficial)encoder/|halfcliff_via.hex|ロータリーエンコーダ使用時。エンコーダの機能はVIA、Remapにて変更可能です。用意する予定です。|
+|hex/qmk_0.15.4/via/others/(unofficial)oled_encoder_trackball_mousekey/|halfcliff_via.hex|OLEDとロータリーエンコーダとトラックボール使用時です。エンコーダの機能はVIA、Remapにて変更可能です。|
+|hex/qmk_0.15.4/via/others/(unofficial)encoder_trackball_mousekey/|halfcliff_via.hex|トラックボールとロータリーエンコーダ使用時です。エンコーダの機能はVIA、Remapにて変更可能です。|
+|hex/qmk_0.15.4/via/others/(unofficial)encoder/|halfcliff_via.hex|ロータリーエンコーダ使用時用です。エンコーダの機能はVIA、Remapにて変更可能です。|
+
 ## (QMK MSYSを使用する場合)ロータリーエンコーダ対応のファームウェアの書込み
 編集中です。
 
