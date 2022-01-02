@@ -85,7 +85,7 @@
 2021/12/31時点で使用可能なHexファイルは以下の通りです。
 |フォルダ|ファイル名|概要|
 |:-|:-|:-|
-|hex/qmk_0.15.4/via/others/(unofficial)oled_encoder_trackball_mousekey/|halfcliff_via.hex|OLED、ロータリーエンコーダ、トラックボール併用時。エンコーダの機能はVIA、Remapにて変更可能|
+|hex/qmk_0.15.4/via/others/(unofficial)oled_encoder_trackball_mousekey/|halfcliff_via.hex|OLED、ロータリーエンコーダ、トラックボール併用時用です。エンコーダの機能はVIA、Remapにて変更可能です。QMKにプルリクエストしているファームウェアでは無いため、unofficial扱いとしています。|
 |hex/qmk_0.15.4/via/others/(unofficial)encoder/|halfcliff_via.hex|ロータリーエンコーダ使用時。エンコーダの機能はVIA、Remapにて変更可能|
 ## (QMK MSYSを使用する場合)ロータリーエンコーダ対応のファームウェアの書込み
 編集中です。
