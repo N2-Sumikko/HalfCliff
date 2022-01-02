@@ -220,22 +220,48 @@
 画像を参考にトラックボールモジュールの配線位置を調整して、ボトムプレートの上にトラックボールモジュールを置けるようにします。
 ![IMG_20211231_120332](https://user-images.githubusercontent.com/54104281/147865684-efcc6395-6c72-48b3-ab6a-759d730ce540.jpg)
 
-## トラックボールモジュール用ボトムプレートにM2x6mmスペーサ2つの取付
+## M2x6mmスペーサ2つをM2x10mmねじにねじ止めしてトラックボール用ボトムプレートを固定
 
-M2x10mmねじ2本にM2x6㎜スペーサー2つを取付け、トラックボールモジュール用ボトムプレートを固定します。
+M2x10mmねじ2本にM2x6㎜スペーサー2つをトラックボールモジュール用ボトムプレートを介して取付け、トラックボールモジュール用ボトムプレートを固定します。
 
 ![IMG_20211231_120557](https://user-images.githubusercontent.com/54104281/147865698-efa2ceec-5e1c-4a56-aecc-5aebc226503a.jpg)
 
-## トラックボールモジュールの位置を調整しながら、M2x6mmスペーサ2つにトラックボールモジュール用トッププレートをM2x4mmねじ2本で固定
+## トラックボールモジュール用トッププレートをM2x4mmねじ2本で固定
+
+トラックボールモジュールの位置を調整しながら、M2x6mmスペーサ2つにトラックボールモジュール用トッププレートをM2x4mmねじ2本でねじ止めします。
 
 ![IMG_20211231_120655](https://user-images.githubusercontent.com/54104281/147865706-7704bf9e-548d-4017-83ac-65e934809677.jpg)
 
 ## (QMK Toolboxを使用する場合)トラックボールモジュール用のHexファイルの書込み
+
+キーボード組立時に行った
+[入力動作テスト](https://github.com/N2-Sumikko/HalfCliff/blob/master/doc/Oparation_test_jp.md)
+の内容を参考に、QMK ToolboxにてHexファイルを書込みます。
+
+2021/12/31時点で使用可能なトラックボール対応のHexファイルは以下の通りです。
+
+(unofficial)と記載されているものは、QMKにマージされたファームウェアを変更して作成したものです。
+|フォルダ|ファイル名|概要|
+|:-|:-|:-|
+|hex/qmk_0.15.4/via/others/(unofficial)oled_encoder_trackball_mousekey/|halfcliff_via.hex|OLEDとロータリーエンコーダとトラックボール使用時です。エンコーダの機能はVIA、Remapにて変更可能です。|
+|hex/qmk_0.15.4/via/others/(unofficial)encoder_trackball_mousekey/|halfcliff_via.hex|トラックボールとロータリーエンコーダ使用時です。エンコーダの機能はVIA、Remapにて変更可能です。|
+|hex/qmk_0.15.4/via/others/(unofficial)trackball_mousekey/|halfcliff_via.hex|トラックボール使用時用です。|
+
 ## (QMK MSYSを使用する場合。ちょっと大変)トラックボールモジュール対応のファームウェアの書込み
-追記予定です。
+編集中です。
 
 # OLED
 以下編集中です。
+
+大まかな流れ
+* ProMicroカバーの取外し
+* OLEDへピンヘッダ1x4のはんだ付け(注意点有り)
+* ロープロファイルピンソケット1x4へのOLEDの取付け
+* 2㎜中空スペーサー、ProMicroカバーをM2x2mmねじで取付
+
+
+
+
 
 
 
