@@ -87,16 +87,16 @@
 [入力動作テスト](https://github.com/N2-Sumikko/HalfCliff/blob/master/doc/Oparation_test_jp.md)
 の内容を参考に、QMK ToolboxにてHexファイルを書込みます。
 
-現時点で使用可能なロータリーエンコーダ対応のHexファイルは以下の通りです。
+現時点で使用可能なロータリーエンコーダ対応のHexファイルは以下の通りです。いずれもロータリーエンコーダの機能はVIA、Remapにて変更可能です。
 
 QMKにマージされたファームウェアを変更して作成したものは(unofficial)と記載しています。いずれも動作確認済です。(もし動作に問題があった場合はご連絡いただけると助かります。)
 
 |フォルダ|ファイル名|概要|
 |:-|:-|:-|
-|hex/qmk_0.15.4/via/others/(unofficial)oled_encoder_trackball_mousekey/|halfcliff_via.hex|OLEDとロータリーエンコーダとトラックボール使用時です。エンコーダの機能はVIA、Remapにて変更可能です。|
-|hex/qmk_0.15.4/via/others/(unofficial)encoder_trackball_mousekey/|halfcliff_via.hex|トラックボールとロータリーエンコーダ使用時です。エンコーダの機能はVIA、Remapにて変更可能です。|
-|hex/qmk_0.15.4/via/others/(unofficial)oled_encoder/|halfcliff_via.hex|OLED、ロータリーエンコーダ使用時用です。エンコーダの機能はVIA、Remapにて変更可能です。|
-|hex/qmk_0.15.4/via/others/(unofficial)encoder/|halfcliff_via.hex|ロータリーエンコーダ使用時用です。エンコーダの機能はVIA、Remapにて変更可能です。|
+|hex/qmk_0.15.4/via/others/(unofficial)oled_encoder_trackball_mousekey/|halfcliff_via.hex|OLEDとロータリーエンコーダとトラックボール使用時です。|
+|hex/qmk_0.15.4/via/others/(unofficial)encoder_trackball_mousekey/|halfcliff_via.hex|トラックボールとロータリーエンコーダ使用時です。|
+|hex/qmk_0.15.4/via/others/(unofficial)oled_encoder/|halfcliff_via.hex|OLED、ロータリーエンコーダ使用時用です。|
+|hex/qmk_0.15.4/via/others/(unofficial)encoder/|halfcliff_via.hex|ロータリーエンコーダ使用時用です。|
 
 ## (QMK MSYSを使用する場合)ロータリーエンコーダ対応のファームウェアの書込み
 必要に応じて追記する予定です。
@@ -263,7 +263,7 @@ QMKにマージされたファームウェアを変更して作成したもの�
 ## 使用時の主な注意点
 * OLEDによっては、OLEDの基板とディスプレイの間に厚い両面テープがあり、全体の厚みが増している場合があります。そのような場合は、基板とディスプレイの間の両面テープをはがし、薄い両面テープで再度貼り付けると良いです。
 * OLEDを使用する場合、左右のキーボードにOLEDを取付ける必要があります。
-* OLEDの表示内容を変更する場合、QMK MSYS等を使用してファームウェアを変更する必要があります。
+* デフォルトの状態ではOLEDにはレイヤーの状態とQMK firmwareのロゴが表示されます。表示内容を変更する場合、QMK MSYS等を使用してファームウェアを変更する必要があります。
 * アクリル製の部品にスペーサーの取付けやねじ止めをする際は、強い力をかけると破損の恐れがあるのでご注意ください。
 
 ## 取付け方法
@@ -312,8 +312,8 @@ QMKにマージされたファームウェアを変更して作成したもの�
 |フォルダ|ファイル名|概要|
 |:-|:-|:-|
 |hex/qmk_0.15.4/via/others/(unofficial)oled_encoder_trackball_mousekey/|halfcliff_via.hex|OLEDとロータリーエンコーダとトラックボール使用時です。エンコーダの機能はVIA、Remapにて変更可能です。|
-|hex/qmk_0.15.4/via/others/(unofficial)oled_trackball_mousekey/|halfcliff_via.hex|OLEDとトラックボール使用時です。|
-|hex/qmk_0.15.4/via/others/(unofficial)oled_encoder/|halfcliff_via.hex|OLEDとロータリーエンコーダ使用時用です。|
+|hex/qmk_0.15.4/via/others/(unofficial)oled_trackball_mousekey/|halfcliff_via.hex|OLED、トラックボール使用時です。|
+|hex/qmk_0.15.4/via/others/(unofficial)oled_encoder/|halfcliff_via.hex|OLEDとロータリーエンコーダ使用時用です。エンコーダの機能はVIA、Remapにて変更可能です。|
 |hex/qmk_0.15.4/via/others/(unofficial)oled/|halfcliff_via.hex|OLED使用時用です。|
 
 ## (QMK MSYSを使用する場合)トラックボールモジュール対応のファームウェアの書込み
