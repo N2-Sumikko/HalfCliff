@@ -87,7 +87,7 @@
 [入力動作テスト](https://github.com/N2-Sumikko/HalfCliff/blob/master/doc/Oparation_test_jp.md)
 の内容を参考に、QMK ToolboxにてHexファイルを書込みます。
 
-2022/1/4時点で使用可能なロータリーエンコーダ対応のHexファイルは以下の通りです。
+現時点で使用可能なロータリーエンコーダ対応のHexファイルは以下の通りです。
 
 QMKにマージされたファームウェアを変更して作成したものは(unofficial)と記載しています。いずれも動作確認済です。(もし動作に問題があった場合はご連絡いただけると助かります。)
 
@@ -235,7 +235,7 @@ M2x10mmねじ2本にM2x6㎜スペーサー2つをトラックボールモジュ�
 [入力動作テスト](https://github.com/N2-Sumikko/HalfCliff/blob/master/doc/Oparation_test_jp.md)
 の内容を参考に、QMK ToolboxにてHexファイルを書込みます。
 
-202時点で使用可能なトラックボール対応のHexファイルは以下の通りです。
+現時点で使用可能なトラックボール対応のHexファイルは以下の通りです。
 
 QMKにマージされたファームウェアを変更して作成したものは(unofficial)と記載しています。いずれも動作確認済です。
 
