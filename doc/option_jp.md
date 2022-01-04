@@ -242,7 +242,7 @@ QMKにマージされたファームウェアを変更して作成したもの�
 |フォルダ|ファイル名|概要|
 |:-|:-|:-|
 |hex/qmk_0.15.4/via/others/(unofficial)oled_encoder_trackball_mousekey/|halfcliff_via.hex|OLEDとロータリーエンコーダとトラックボール使用時です。エンコーダの機能はVIA、Remapにて変更可能です。|
-|hex/qmk_0.15.4/via/others/(unofficial)encoder_trackball_mousekey/|halfcliff_via.hex|トラックボールとロータリーエンコーダ使用時です。エンコーダの機能はVIA、Remapにて変更可能です。|
+|hex/qmk_0.15.4/via/others/(unofficial)encoder_trackball_mousekey/|halfcliff_via.hex|ロータリーエンコーダとトラックボール使用時です。エンコーダの機能はVIA、Remapにて変更可能です。|
 |hex/qmk_0.15.4/via/others/(unofficial)trackball_mousekey/|halfcliff_via.hex|トラックボール使用時用です。|
 
 ## (QMK MSYSを使用する場合。ちょっと大変)トラックボールモジュール対応のファームウェアの作成、書込み
