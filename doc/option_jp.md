@@ -262,6 +262,7 @@ QMKにマージされたファームウェアを変更して作成したもの�
 ## 使用時の主な注意点
 * OLEDによっては、OLEDの基板とディスプレイの間に厚い両面テープがあり、全体の厚みが増している場合があります。そのような場合は、基板とディスプレイの間の両面テープをはがし、薄い両面テープで再度貼り付けると良いです。
 * OLEDを使用する場合、左右のキーボードにOLEDを取付ける必要があります。
+* OLEDの表示内容を変更する場合、QMK MSYS等を使用してファームウェアを変更する必要があります。
 * アクリル製の部品にスペーサーの取付けやねじ止めをする際は、強い力をかけると破損の恐れがあるのでご注意ください。
 
 ## 取付け方法
@@ -294,7 +295,8 @@ ProMicro基板を固定していたM2x7mmスペーサー2つの上にM2x2mm中�
 
 その後、M2x6mmねじ2本を、ProMicroカバー、中空スペーサーの穴の順に通してM2x7mmスペーサーへねじ止めします。
 
-![IMG_20211231_122209](https://user-images.githubusercontent.com/54104281/148025227-24238a9d-d503-4f90-a037-e74a8a1dc72a.jpg)
+![IMG_20211231_122407](https://user-images.githubusercontent.com/54104281/148026160-46d47b54-140d-4e15-84cc-434362097670.jpg)
+
 
 
 ## (QMK Toolboxを使用する場合)トラックボールモジュール対応のHexファイルの書込み
@@ -309,7 +311,7 @@ QMKにマージされたファームウェアを変更して作成したもの�
 |フォルダ|ファイル名|概要|
 |:-|:-|:-|
 |hex/qmk_0.15.4/via/others/(unofficial)oled_encoder_trackball_mousekey/|halfcliff_via.hex|OLEDとロータリーエンコーダとトラックボール使用時です。エンコーダの機能はVIA、Remapにて変更可能です。|
-|hex/qmk_0.15.4/via/others/(unofficial)oled_trackball_mousekey/|halfcliff_via.hex|トラックボールとロータリーエンコーダ使用時です。エンコーダの機能はVIA、Remapにて変更可能です。|
+|hex/qmk_0.15.4/via/others/(unofficial)oled_trackball_mousekey/|halfcliff_via.hex|OLEDとトラックボール使用時です。|
 |hex/qmk_0.15.4/via/others/(unofficial)oled_encoder/|halfcliff_via.hex|OLEDとロータリーエンコーダ使用時用です。|
 |hex/qmk_0.15.4/via/others/(unofficial)oled/|halfcliff_via.hex|OLED使用時用です。|
 
