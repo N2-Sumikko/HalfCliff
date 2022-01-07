@@ -235,14 +235,14 @@ M2x10mmねじ2本にM2x6㎜スペーサー2つをトラックボールモジュ�
 [入力動作テスト](https://github.com/N2-Sumikko/HalfCliff/blob/master/doc/Oparation_test_jp.md)
 の内容を参考に、QMK ToolboxにてHexファイルを書込みます。
 
-現時点で使用可能なトラックボール対応のHexファイルは以下の通りです。
+現時点で使用可能なトラックボール対応のHexファイルは以下の通りです。ロータリーエンコーダ対応のファームウェアの場合、ロータリーエンコーダの機能はVIA、Remapにて変更可能です。
 
 QMKにマージされたファームウェアを変更して作成したものは(unofficial)と記載しています。いずれも動作確認済です。
 
 |フォルダ|ファイル名|概要|
 |:-|:-|:-|
-|hex/qmk_0.15.4/via/others/(unofficial)oled_encoder_trackball_mousekey/|halfcliff_via.hex|OLEDとロータリーエンコーダとトラックボール使用時です。エンコーダの機能はVIA、Remapにて変更可能です。|
-|hex/qmk_0.15.4/via/others/(unofficial)encoder_trackball_mousekey/|halfcliff_via.hex|ロータリーエンコーダとトラックボール使用時です。エンコーダの機能はVIA、Remapにて変更可能です。|
+|hex/qmk_0.15.4/via/others/(unofficial)oled_encoder_trackball_mousekey/|halfcliff_via.hex|OLEDとロータリーエンコーダとトラックボール使用時です。|
+|hex/qmk_0.15.4/via/others/(unofficial)encoder_trackball_mousekey/|halfcliff_via.hex|ロータリーエンコーダとトラックボール使用時です。|
 |hex/qmk_0.15.4/via/others/(unofficial)trackball_mousekey/|halfcliff_via.hex|トラックボール使用時用です。|
 
 ## (QMK MSYSを使用する場合。ちょっと大変)トラックボールモジュール対応のファームウェアの作成、書込み
