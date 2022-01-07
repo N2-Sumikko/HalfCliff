@@ -271,9 +271,9 @@ QMKにマージされたファームウェアを変更して作成したもの�
 大まかな作業順序
 * ProMicroカバーの取外し
 * OLEDへピンヘッダ1x4のはんだ付け(注意点有り)
-* ロープロファイルピンソケット1x4へのOLEDの取付け、はんだ付け
+* ProMicro基板のロープロファイルピンソケット1x4へのOLEDの取付け、はんだ付け
 * M2x2㎜中空スペーサー、ProMicroカバーをM2x6mmねじで取付
-* (QMK Toolboxを使用する場合)トラックボールモジュール対応のHexファイルの書込み
+* (QMK Toolboxを使用する場合)OLED対応のHexファイルの書込み
 * (QMK MSYSを使用する場合)トラックボールモジュール対応のファームウェアの書込み
 
 ## ProMicroカバーの取外し
@@ -285,7 +285,7 @@ OLEDへピンヘッダ1x4を取付け、はんだ付けします。
 
 (注意点)ProMicro基板のロープロファイルピンソケット1x4へOLEDのピンヘッダ1x4を取付ける際には、ある程度の高さが必要です。(具体的には、OLEDの基板底面から樹脂部分含めて9㎜程度の長さが必要です。[こちら](https://hirosugi.co.jp/products/N/PSH-41.html)等が使用可能です。
 
-## ロープロファイルピンソケット1x4へのOLEDの取付け
+## ProMicro基板のロープロファイルピンソケット1x4へのOLEDの取付け
 
 ProMicro基板のロープロファイルピンソケット1x4へ、OLEDにはんだ付けしたピンヘッダ1x4を取付けます。
 
@@ -300,20 +300,20 @@ ProMicro基板を固定していたM2x7mmスペーサー2つの上にM2x2mm中�
 
 
 
-## (QMK Toolboxを使用する場合)トラックボールモジュール対応のHexファイルの書込み
+## (QMK Toolboxを使用する場合))OLED対応のHexファイルの書込み
 キーボード組立時に行った
 [入力動作テスト](https://github.com/N2-Sumikko/HalfCliff/blob/master/doc/Oparation_test_jp.md)
 の内容を参考に、QMK ToolboxにてHexファイルを書込みます。
 
-現在使用可能なOLED対応のHexファイルは以下の通りです。
+現在使用可能なOLED対応のHexファイルは以下の通りです。ロータリーエンコーダ対応のファームウェアの場合、ロータリーエンコーダの機能はVIA、Remapにて変更可能です。
 
 QMKにマージされたファームウェアを変更して作成したものは(unofficial)と記載しています。いずれも動作確認済です。
 
 |フォルダ|ファイル名|概要|
 |:-|:-|:-|
-|hex/qmk_0.15.4/via/others/(unofficial)oled_encoder_trackball_mousekey/|halfcliff_via.hex|OLEDとロータリーエンコーダとトラックボール使用時です。エンコーダの機能はVIA、Remapにて変更可能です。|
+|hex/qmk_0.15.4/via/others/(unofficial)oled_encoder_trackball_mousekey/|halfcliff_via.hex|OLEDとロータリーエンコーダとトラックボール使用時です。|
 |hex/qmk_0.15.4/via/others/(unofficial)oled_trackball_mousekey/|halfcliff_via.hex|OLED、トラックボール使用時です。|
-|hex/qmk_0.15.4/via/others/(unofficial)oled_encoder/|halfcliff_via.hex|OLEDとロータリーエンコーダ使用時用です。エンコーダの機能はVIA、Remapにて変更可能です。|
+|hex/qmk_0.15.4/via/others/(unofficial)oled_encoder/|halfcliff_via.hex|OLEDとロータリーエンコーダ使用時用です。|
 |hex/qmk_0.15.4/via/others/(unofficial)oled/|halfcliff_via.hex|OLED使用時用です。|
 
 ## (QMK MSYSを使用する場合)トラックボールモジュール対応のファームウェアの書込み
