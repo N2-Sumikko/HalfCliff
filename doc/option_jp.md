@@ -256,7 +256,7 @@ QMKにマージされたファームウェアを変更して作成したもの�
 |名前|合計数|備考|
 |:-|:-|:-|
 |OLED|2個|[こちら](https://shop.yushakobo.jp/products/oled)、または互換品が使用可能です。ただし全体の厚みに注意です。|
-|ピンヘッダ1x4|1個|ピンヘッダの長さに注意が必要です。[こちら](https://hirosugi.co.jp/products/N/PSH-41.html)等が使用可能です。|
+|ピンヘッダ1x4|1個|ピンヘッダの長さに注意が必要です。[PSH-410256-04](https://hirosugi.co.jp/products/N/PSH-41.html)等が使用可能です。|
 |M2x2mm中空スペーサー|4個|halfcliffの基本セットに付属の予備のスペーサーが使用可能です。|
 |M2x6mmねじ|4本||
 
@@ -274,7 +274,7 @@ QMKにマージされたファームウェアを変更して作成したもの�
 * ProMicro基板のロープロファイルピンソケット1x4へのOLEDの取付け、はんだ付け
 * M2x2㎜中空スペーサー、ProMicroカバーをM2x6mmねじで取付
 * (QMK Toolboxを使用する場合)OLED対応のHexファイルの書込み
-* (QMK MSYSを使用する場合)トラックボールモジュール対応のファームウェアの書込み
+* (QMK MSYSを使用する場合)OLED対応のファームウェアの書込み
 
 ## ProMicroカバーの取外し
 ProMicroカバーを固定しているM2x4mmねじ2本を緩め、ProMicroカバーを取外します。左右のキーボードに対して同様の作業を実施します。
@@ -316,5 +316,5 @@ QMKにマージされたファームウェアを変更して作成したもの�
 |hex/qmk_0.15.4/via/others/(unofficial)oled_encoder/|halfcliff_via.hex|OLEDとロータリーエンコーダ使用時用です。|
 |hex/qmk_0.15.4/via/others/(unofficial)oled/|halfcliff_via.hex|OLED使用時用です。|
 
-## (QMK MSYSを使用する場合)トラックボールモジュール対応のファームウェアの書込み
+## (QMK MSYSを使用する場合)OLED対応のファームウェアの書込み
 必要に応じて追記する予定です。
