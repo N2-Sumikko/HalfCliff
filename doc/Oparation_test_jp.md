@@ -8,15 +8,15 @@
 キーボード組立中や、キーボード組立後の入力動作テストにご活用ください。
 
 おおまなか手順は以下の通りです。
-* (QMK MSYSを使用する場合)ファームウェア書込み環境の構築
-* (QMK MSYSを使用する場合)ProMicroへのファームウェア書込み
 * (QMK Toolboxを使用する場合)ファームウェア書込み環境の構築
 * (QMK Toolboxを使用する場合)ProMicroへのファームウェア書込み
+* (QMK MSYSを使用する場合)ファームウェア書込み環境の構築
+* (QMK MSYSを使用する場合)ProMicroへのファームウェア書込み
 * 左右のキーボードのTRRSケーブルでの接続
 * **左キーボード**のProMicroとPC間をUSBケーブルで接続
 * 入力動作テスト
 
-QMK MSYSとQMK Toolboxのどちらを使用するかは好みですが、
+QMK ToolboxとQMK MSYSのどちらを使用するかは好みですが、
 
 * 動作テスト時はQMK Toolboxを使用し、必要に応じてQMK MSYSに移行する
 
@@ -25,6 +25,88 @@ QMK MSYSとQMK Toolboxのどちらを使用するかは好みですが、
 というのも、現状のHalfcliffの場合、QMK MSYS使用時の動作テストでは一部のキーの動作を確認しにくいためです。(例えばCtrlキー等)
 
 QMK Toolbox使用時は、テスト専用のファイルを使用するので、各キーの動作が明確に確認できます。
+
+# (QMK Toolboxを使用する場合)ファームウェア書込み環境の構築
+
+QMK Toolboxを使用する場合、まずは以下のURL
+
+https://github.com/qmk/qmk_toolbox/releases
+
+にアクセスします。その後、最新版(2021/07/24時点では0.0.21)の「qmk_toolbox.exe」をクリックし、実行ファイルをダウンロードします。
+
+ダウンロード後、PCのデスクトップ等に任意の名前のフォルダを1つ作成します。
+
+(出来れば英語の、スペースを使用しないファイル名が良いです。QMK_Toolboxとか)
+
+作成後、QMK Toolboxをダウンロードしたフォルダを開き、ダウンロードした「qmk_toolbox.exe」をフォルダ内に移動します。
+
+(フォルダを作成して実行ファイルを移動する手順は必須ではありませんが、管理しやすくするために行っています。)
+
+移動後、実行ファイルをダブルクリックなどで実行します。
+
+実行後表示されるダイアログでは「はい」をクリックします。
+
+![実行時に表示されるダイアログ](https://user-images.githubusercontent.com/54104281/126859435-16f8cb54-3407-43a9-8db7-4ec2766603b9.png)
+
+クリック後に以下の画面が表示されるので、閉じるのを待ちます。
+
+![ドライバインストール時ダイアログ](https://user-images.githubusercontent.com/54104281/126859557-cfc0cc68-f010-41db-af15-70bdf3a8b636.png)
+
+その後、以下の画面が表示されたら、ファームウェア書込み環境構築は完了です。
+
+![QMK_Toolbox起動後(暫定)](https://user-images.githubusercontent.com/54104281/128621145-1f619b43-a17c-4c46-a4b8-6c1ef8b28002.jpg)
+
+# (QMK Toolboxを使用する場合)ProMicroへのファームウェア書込み
+
+ファームウェア書込みのために、まずは左右いずれかのキーボードのProMicroとPC間をUSBケーブルで接続します。
+
+USBケーブルは通信可能なものを使用します。ファームウェアは左右両方のProMicroへ書き込む必要があります。
+
+接続後、以下のURLにアクセスし、ファームウェアの書込みに必要な.hexファイルをダウンロードします。
+
+https://github.com/N2-Sumikko/HalfCliff
+
+ダウンロードは、URLにアクセス後、
+
+Codeをクリック→Download ZIPをクリック
+
+という手順で行います。
+
+ダウンロードが完了したら、任意の場所にフォルダを展開(解凍)します。
+
+解凍後、QMK Toolboxにてopenをクリックし、
+
+展開したフォルダ「HalfCliff-master」内のフォルダ
+
+```
+hex/test
+```
+
+にある「halfcliff_test.hex」ファイルを選択します。
+
+![hex選択後](https://user-images.githubusercontent.com/54104281/126997225-7fa0c591-671d-41dd-b679-cb1b61a27e46.png)
+
+その後、画面の右上の方にあるAuto-Flashのチェックボックスをクリックしチェックを入れます。
+
+![Auto-Flashチェック後](https://user-images.githubusercontent.com/54104281/126997247-fa9ecaa4-cac1-4346-ab89-943dad6a06f4.png)
+
+念のため、右上のMCUの項目がatmega32u4であることも確認しておきます。
+
+その状態で、ピンセット等で画像の赤丸の位置にあるリセットスイッチを押します。(画像は組立後のキーボードですが、作業内容は同じです。)
+
+![リセットスイッチ押下時](https://user-images.githubusercontent.com/54104281/128621022-9e5bd9f8-6b1b-4a55-82b4-6bf32c3dac96.jpg)
+
+すると、ProMicroへのファームウェアの書込みが自動で開始されます。
+
+最終的に以下のような画面が表示されれば書込み完了です。
+
+![書込み完了後](https://user-images.githubusercontent.com/54104281/126997352-f790fd9f-725e-4915-a5ef-b513f144d13a.png)
+
+もう片方のキーボードも同様の手順でファームウェアを書込みます。
+
+halfcliff_test.hexを書き込んだ場合、左右キースイッチ基板のキーマップ(キースイッチを押したときに入力されるキーを示したもの)は以下の赤枠と黄枠の通りです。
+
+![テスト用キーマップ](https://user-images.githubusercontent.com/54104281/144734996-96efe670-0846-4358-bb14-6c1be8cd3b55.png)
 　
 # (QMK MSYSを使用する場合)ファームウェア書込み環境の構築
 
@@ -146,88 +228,6 @@ qmk flash -kb halfcliff -km via
 リセットスイッチを押すと画面の状態が変わり、処理が先に進みます。「Thank you.」と表示されたら、ファームウェアの書込みは完了です。
 
 もう片方のキーボードに対しても同様の手順でファームウェアを書込みます。
-
-# (QMK Toolboxを使用する場合)ファームウェア書込み環境の構築
-
-QMK Toolboxを使用する場合、まずは以下のURL
-
-https://github.com/qmk/qmk_toolbox/releases
-
-にアクセスします。その後、最新版(2021/07/24時点では0.0.21)の「qmk_toolbox.exe」をクリックし、実行ファイルをダウンロードします。
-
-ダウンロード後、PCのデスクトップ等に任意の名前のフォルダを1つ作成します。
-
-(出来れば英語の、スペースを使用しないファイル名が良いです。QMK_Toolboxとか)
-
-作成後、QMK Toolboxをダウンロードしたフォルダを開き、ダウンロードした「qmk_toolbox.exe」をフォルダ内に移動します。
-
-(フォルダを作成して実行ファイルを移動する手順は必須ではありませんが、管理しやすくするために行っています。)
-
-移動後、実行ファイルをダブルクリックなどで実行します。
-
-実行後表示されるダイアログでは「はい」をクリックします。
-
-![実行時に表示されるダイアログ](https://user-images.githubusercontent.com/54104281/126859435-16f8cb54-3407-43a9-8db7-4ec2766603b9.png)
-
-クリック後に以下の画面が表示されるので、閉じるのを待ちます。
-
-![ドライバインストール時ダイアログ](https://user-images.githubusercontent.com/54104281/126859557-cfc0cc68-f010-41db-af15-70bdf3a8b636.png)
-
-その後、以下の画面が表示されたら、ファームウェア書込み環境構築は完了です。
-
-![QMK_Toolbox起動後(暫定)](https://user-images.githubusercontent.com/54104281/128621145-1f619b43-a17c-4c46-a4b8-6c1ef8b28002.jpg)
-
-# (QMK Toolboxを使用する場合)ProMicroへのファームウェア書込み
-
-ファームウェア書込みのために、まずは左右いずれかのキーボードのProMicroとPC間をUSBケーブルで接続します。
-
-USBケーブルは通信可能なものを使用します。ファームウェアは左右両方のProMicroへ書き込む必要があります。
-
-接続後、以下のURLにアクセスし、ファームウェアの書込みに必要な.hexファイルをダウンロードします。
-
-https://github.com/N2-Sumikko/HalfCliff
-
-ダウンロードは、URLにアクセス後、
-
-Codeをクリック→Download ZIPをクリック
-
-という手順で行います。
-
-ダウンロードが完了したら、任意の場所にフォルダを展開(解凍)します。
-
-解凍後、QMK Toolboxにてopenをクリックし、
-
-展開したフォルダ「HalfCliff-master」内のフォルダ
-
-```
-hex/test
-```
-
-にある「halfcliff_test.hex」ファイルを選択します。
-
-![hex選択後](https://user-images.githubusercontent.com/54104281/126997225-7fa0c591-671d-41dd-b679-cb1b61a27e46.png)
-
-その後、画面の右上の方にあるAuto-Flashのチェックボックスをクリックしチェックを入れます。
-
-![Auto-Flashチェック後](https://user-images.githubusercontent.com/54104281/126997247-fa9ecaa4-cac1-4346-ab89-943dad6a06f4.png)
-
-念のため、右上のMCUの項目がatmega32u4であることも確認しておきます。
-
-その状態で、ピンセット等で画像の赤丸の位置にあるリセットスイッチを押します。(画像は組立後のキーボードですが、作業内容は同じです。)
-
-![リセットスイッチ押下時](https://user-images.githubusercontent.com/54104281/128621022-9e5bd9f8-6b1b-4a55-82b4-6bf32c3dac96.jpg)
-
-すると、ProMicroへのファームウェアの書込みが自動で開始されます。
-
-最終的に以下のような画面が表示されれば書込み完了です。
-
-![書込み完了後](https://user-images.githubusercontent.com/54104281/126997352-f790fd9f-725e-4915-a5ef-b513f144d13a.png)
-
-もう片方のキーボードも同様の手順でファームウェアを書込みます。
-
-halfcliff_test.hexを書き込んだ場合、左右キースイッチ基板のキーマップ(キースイッチを押したときに入力されるキーを示したもの)は以下の赤枠と黄枠の通りです。
-
-![テスト用キーマップ](https://user-images.githubusercontent.com/54104281/144734996-96efe670-0846-4358-bb14-6c1be8cd3b55.png)
 
 # 左右のキーボードのTRRSケーブルでの接続
 
